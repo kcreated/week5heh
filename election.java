@@ -10,31 +10,38 @@ public class election
 {
     public static void main (String[ ] args)
     {
-        int integerfirst;
-        int integersecond;
+        int awnumerouno;
+        int awnumerodos;
+        int awnumerotres;
+        int martnumerouno;
+        int martnumerodos;
+        int martnumerotres;
         Scanner input = new Scanner(System.in);
         System.out.print("Awbrey New York Votes: ");
-        integerfirst = input.nextInt();
+        awnumerouno = input.nextInt();
         System.out.print("Awbrey New Jersey votes: ");
-        integerfirst = input.nextInt();
+        awnumerodos = input.nextInt();
         System.out.print("Awbrey Connecticut votes: ");
-        integerfirst = input.nextInt();
-        System.out.print("Matinez New York votes: ");
-        integersecond = input.nextInt();
-        System.out.print("Matinez New Jersey: ");
-        integersecond = input.nextInt();
-        System.out.print("Matinez Connecticut: ");
-        integersecond = input.nextInt();
+        awnumerotres = input.nextInt();
+        System.out.print("Martinez New York votes: ");
+        martnumerouno = input.nextInt();
+        System.out.print("Martinez New Jersey: ");
+        martnumerodos = input.nextInt();
+        System.out.print("Martinez Connecticut: ");
+        martnumerotres = input.nextInt();
 
-        double divisionone;
-        divisionone = integerfirst/integersecond;
-        double modulusone;
-        modulusone = integerfirst%integersecond;
-        double divisiontwo;
-        divisiontwo = integersecond/integerfirst;
-        double modulustwo;
-        modulustwo = integersecond%integerfirst;
-        System.out.println(""); 
+        double wazahh;
+        wazahh = awnumerouno + awnumerodos + awnumerotres + martnumerouno + martnumerodos + martnumerotres;
+        double saidByDonPollo;
+        saidByDonPollo = awnumerouno + awnumerodos + awnumerotres + martnumerouno + martnumerodos + martnumerotres;
+        double iGiveUp;
+        iGiveUp = awnumerouno + awnumerodos + awnumerotres/(awnumerouno + awnumerodos + awnumerotres + martnumerouno + martnumerodos + martnumerotres) * 100;
+        double saidByme;
+        saidByme =  martnumerouno + martnumerodos + martnumerotres/(awnumerouno + awnumerodos + awnumerotres + martnumerouno + martnumerodos + martnumerotres * 100);
+        double total;
+        total = awnumerouno + awnumerodos + awnumerotres + martnumerouno + martnumerodos + martnumerotres;
+    
+        System.out.println("Canidate\t\t\tVotes\tPercentage\nAwbrey\t\t\t\t" + wazahh + "\t" + iGiveUp +"%\nMartinez\t\t\t" + saidByDonPollo + "\t" + saidByme + "%\nTOTAL VOTES: " + total); 
     
     }
 }
